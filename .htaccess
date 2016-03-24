@@ -1,0 +1,32 @@
+<IfModule mod_rewrite.c>
+
+
+# Disable directory browsing
+Options All -Indexes
+
+
+# Deny access to wp-config.php file
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+
+# Deny access to all .htaccess files
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+
+# Wordpress Rewrites
+RewriteEngine On
+RewriteBase /Dev/composewp/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /Dev/composewp/index.php [L]
+
+
+</IfModule>
