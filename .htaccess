@@ -18,6 +18,17 @@ Options All -Indexes
 </files>
 
 
+# Block the include-only files.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp/wp-admin/includes/ - [F,L]
+RewriteRule !^wp/wp-includes/ - [S=3]
+RewriteRule ^wp/wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp/wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^wp/wp-includes/theme-compat/ - [F,L]
+</IfModule>
+
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
@@ -28,5 +39,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /Dev/composewp/index.php [L]
 </IfModule>
-
 # END WordPress
