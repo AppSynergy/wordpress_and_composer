@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4f62d53dbdae572a8646e8ccd11a572b",
-    "content-hash": "41067352ab71b3018212553ade559540",
+    "hash": "f761ff444f545053f02ef9566a083caf",
+    "content-hash": "ce47d2634e5ea3f9179527c2b274b691",
     "packages": [
         {
             "name": "composer/installers",
@@ -209,6 +209,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/captcha/"
+        },
+        {
+            "name": "wpackagist-theme/greenr",
+            "version": "1.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/greenr/",
+                "reference": "1.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/greenr.1.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/greenr/"
         }
     ],
     "packages-dev": [],

@@ -11,7 +11,8 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.4",
-    "wpackagist-plugin/captcha": "4.1.8"
+    "wpackagist-plugin/captcha": "4.1.8",
+    "wpackagist-theme/greenr": "1.1.4"
   },
   "extra": {
     "wordpress-install-dir": "wp"
