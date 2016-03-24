@@ -1,6 +1,6 @@
 <?php
 /**
- * The base configuration for WordPress
+ * The base configuration for WordPress.
  *
  * The wp-config.php creation script uses this file during the
  * installation. You don't have to use the web site, you can
@@ -14,27 +14,25 @@
  * * ABSPATH
  *
  * @link https://codex.wordpress.org/Editing_wp-config.php
- *
- * @package WordPress
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'composewp');
 
-/** MySQL database username */
+/* MySQL database username */
 define('DB_USER', 'root');
 
-/** MySQL database password */
+/* MySQL database password */
 define('DB_PASSWORD', '');
 
-/** MySQL hostname */
+/* MySQL hostname */
 define('DB_HOST', 'localhost');
 
-/** Database Charset to use in creating database tables. */
+/* Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
-/** The Database Collate type. Don't change this if in doubt. */
+/* The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
 /**#@+
@@ -57,15 +55,15 @@ define('NONCE_SALT',       '2|& db=$9+}55JNUEQ?j,6)ek~9YTpRd!|!3GeK=Z&FS70HgzMUn
 
 /**#@-*/
 
-/**
+/*
  * WordPress Database Table prefix.
  *
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix = 'wp_';
 
-/**
+/*
  * For developers: WordPress debugging mode.
  *
  * Change this to true to enable the display of notices during development.
@@ -79,15 +77,13 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+/* Content directory **/
+define('WP_CONTENT_DIR', dirname(__FILE__).'/wp-content');
 
-/** Content directory **/
-define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content' );
-
-
-/** Absolute path to the WordPress directory. */
-if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/wp');
-
+/* Absolute path to the WordPress directory. */
+if (!defined('ABSPATH')) {
+    define('ABSPATH', dirname(__FILE__).'/wp');
+}
 
 /** Sets up WordPress vars and included files. */
-require_once(ABSPATH . 'wp-settings.php');
+require_once ABSPATH.'wp-settings.php';

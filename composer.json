@@ -1,23 +1,19 @@
 {
-    "name": "root/composewp",
-    "authors": [
-        {
-            "name": "Adam Marshall",
-            "email": "adam@appsynergy.net"
-        }
-    ],
-		"repositories":[
-        {
-            "type":"composer",
-            "url":"https://wpackagist.org"
-        }
-    ],
-    "require": {
-				"php": ">=5.4",
-    		"johnpbloch/wordpress": "4.4",
-				"wpackagist-plugin/captcha": "4.1.8"
-		},
-		"extra": {
-				"wordpress-install-dir": "wp"
-		}
+  "name": "root/composewp",
+  "authors": [{
+    "name": "Adam Marshall",
+    "email": "adam@appsynergy.net"
+  }],
+  "repositories": [{
+    "type": "composer",
+    "url": "https://wpackagist.org"
+  }],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.4",
+    "wpackagist-plugin/captcha": "4.1.8"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  }
 }
