@@ -1,7 +1,5 @@
-/vendor
-/wp
-/wp-content
+vendor/
+wp/
 
-
-/wp-content/themes
-!/wp-content/themes/example/*
+wp-content/*
+!wp-content/themes/example
