@@ -26,6 +26,8 @@ http://wptavern.com/100000-wordpress-sites-compromised-using-the-slider-revoluti
 
 https://www.studiopress.com/features/
 
+https://github.com/concrete5/concrete5-composer
+
 https://www.engagewp.com/why-i-no-longer-use-themeforest/
 
 https://cr3ativ.com/portfolio-category/plugins#all
