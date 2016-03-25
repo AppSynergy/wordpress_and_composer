@@ -17,3 +17,5 @@ composer update
 https://codex.wordpress.org/Theme_Development#Theme_Testing_Process
 
 https://wordpress.org/plugins/rest-api/
+
+http://wptavern.com/whats-your-perception-of-themeforest
