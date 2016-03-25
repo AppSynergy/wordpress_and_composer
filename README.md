@@ -10,3 +10,10 @@ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/loca
 git clone
 composer update
 ````
+
+
+# N.B.
+
+https://codex.wordpress.org/Theme_Development#Theme_Testing_Process
+
+https://wordpress.org/plugins/rest-api/
