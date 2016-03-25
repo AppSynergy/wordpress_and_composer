@@ -29,3 +29,7 @@ https://www.studiopress.com/features/
 https://www.engagewp.com/why-i-no-longer-use-themeforest/
 
 https://cr3ativ.com/portfolio-category/plugins#all
+
+https://premium.wpmudev.org/blog/daily-tip-how-to-disable-plugin-and-theme-update-and-installation-on-wordpress/
+
+https://someguyjeremy.com/2012/01/why-i-hate-wordpress.html
