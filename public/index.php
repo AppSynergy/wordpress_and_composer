@@ -1,4 +1,7 @@
-<?php define('WP_USE_THEMES', true);
+<?php
 
-/** Loads the WordPress Environment and Template */
+
+define('WP_USE_THEMES', true);
+
+
 require dirname(__FILE__).'/wp/wp-blog-header.php';
