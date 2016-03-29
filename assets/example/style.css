@@ -1,0 +1,15 @@
+/*
+Theme Name: Example Theme
+Theme URI: http://appsynergy.net/
+Author: Adam Marshall
+Author URI: http://appsynergy.net/
+Description: This is your theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: example
+Text Domain: example theme
+Template: greenr
+*/
+
+body { color: red; }
