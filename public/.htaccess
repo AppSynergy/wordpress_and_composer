@@ -18,6 +18,10 @@ Options All -Indexes
 </files>
 
 
+# Custom admin urls
+RewriteRule ^admin/(.*)$ /wp/wp-admin/$1 [QSA,L]
+
+
 # Block the include-only files.
 <IfModule mod_rewrite.c>
 RewriteEngine On
