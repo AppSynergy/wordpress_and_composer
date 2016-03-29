@@ -33,10 +33,10 @@ RewriteRule ^wp/wp-includes/theme-compat/ - [F,L]
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /Dev/composewp/
+RewriteBase /Dev/composewp/public
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /Dev/composewp/index.php [L]
+RewriteRule . /Dev/composewp/public/index.php [L]
 </IfModule>
 # END WordPress

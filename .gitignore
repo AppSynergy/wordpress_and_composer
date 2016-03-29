@@ -1,5 +1,5 @@
 vendor/
-wp/
+public/wp/
 
-wp-content/*
-!./wp-content/themes/example
+public/content/*
+!public/content/themes/example

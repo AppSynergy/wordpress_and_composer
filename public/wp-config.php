@@ -20,10 +20,10 @@ define('LOGGED_IN_SALT', 'Q/!k&2]xD,s2jzgBM+3/xt8_++b%Z~t^K2<iLmg=IK.|:+D{dM0kWt
 define('NONCE_SALT', '2|& db=$9+}55JNUEQ?j,6)ek~9YTpRd!|!3GeK=Z&FS70HgzMUn56Rv9T$|Uc6i');
 
 // ARCHITECTURE
-define('WP_HOME', 'http://localhost/Dev/composewp');
+define('WP_HOME', 'http://localhost/Dev/composewp/public');
 define('WP_SITEURL', WP_HOME.'/wp');
-define('WP_CONTENT_DIR', dirname(__FILE__).'/wp-content');
-define('WP_CONTENT_URL', WP_HOME.'/wp-content');
+define('WP_CONTENT_DIR', dirname(__FILE__).'/content');
+define('WP_CONTENT_URL', WP_HOME.'/content');
 
 // OPTIMIZATION
 define('WP_MEMORY_LIMIT', '64M');
