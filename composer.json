@@ -10,8 +10,8 @@
   }],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.4",
-    "wpackagist-plugin/captcha": "4.1.8",
+    "johnpbloch/wordpress": "4.4.2",
+    "wpackagist-plugin/captcha": "4.1.9",
     "wpackagist-theme/greenr": "1.1.4"
   },
   "extra": {
