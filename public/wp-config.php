@@ -6,6 +6,6 @@ if (!defined('ABSPATH') ) {
 }
 
 
-if (file_exists(ABSPATH . '../../wp-config.php')) {
-	require_once(ABSPATH . '../../wp-config.php');
+if (file_exists(ABSPATH . '../../config.php')) {
+	require_once(ABSPATH . '../../config.php');
 }
